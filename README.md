@@ -14,23 +14,6 @@ At the same time, existing recipe recommendation systems are **disconnected from
 
 This project aims to develop a two-stage intelligent system that transforms the way users interact with recipes and meal planning.
 
-## 2 Stage Pipeline
-
-### 🔍 Stage 1: Accurate Ingredient Detection  
-Leverage Yolov8 to accurately identify multiple individual ingredients present in food images.
-
-### 📖 Stage 2: Contextual Recipe Recommendation  
-Utilize the detected ingredients to retrieve contextually relevant and accessible recipes from comprehensive recipe databases using TF-IDF + T5 for recipe recommendation
-
-## HyperParameter Tuning - Made use of Optuna for Bayesian Optimization
-
-## 📦 Features
-
-- Ingredient-level recognition from images  
-- Real-time or batch recipe suggestion  
-- Scalable and modular pipeline  
-- Potential for integration with existing meal planner apps
-
 ## 📊 Dataset
 
 **FOOD INGREDIENTS DETECTION Dataset**
@@ -55,3 +38,20 @@ Utilize the detected ingredients to retrieve contextually relevant and accessibl
   - 🥒 **Cucumber** – 164 instances  
   - 🧅 **Onion** – 160 instances  
   - 🍅 **Tomato** – 150 instances
+
+## 📦 Features
+
+- Ingredient-level recognition from images  
+- Real-time or batch recipe suggestion  
+- Scalable and modular pipeline  
+- Potential for integration with existing meal planner apps
+
+## 2 Stage Pipeline
+
+### 🔍 Stage 1: Accurate Ingredient Detection  
+Leverage Yolov8 to accurately identify multiple individual ingredients present in food images.
+
+### 📖 Stage 2: Contextual Recipe Recommendation  
+Utilize the detected ingredients to retrieve contextually relevant and accessible recipes from comprehensive recipe databases using TF-IDF + T5 for recipe recommendation
+
+## HyperParameter Tuning - Made use of Optuna for Bayesian Optimization
