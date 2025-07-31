@@ -56,3 +56,13 @@ Utilize the detected ingredients to retrieve contextually relevant and accessibl
 
 ## HyperParameter Tuning 
 Made use of Optuna for Bayesian Optimization
+
+## 🏆 Results
+
+- 📈 **Achieved mAP@50 of 0.829** using **YOLOv8** for multi-ingredient food detection.
+- 🎯 Accurately detected **diverse and overlapping ingredients** in real-time.
+- 🧠 Provided **context-aware recipe suggestions** using a combination of:
+  - **TF-IDF retrieval** for relevant recipe matching
+  - **T5 model** for natural language generation
+- 🌐 Enabled **interactive predictions and visualizations** via a user-friendly **Gradio interface**.
+
