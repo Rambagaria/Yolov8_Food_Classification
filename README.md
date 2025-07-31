@@ -1,5 +1,5 @@
-# Yolov8_Food_Classification
-
+# Yolov8 Food Classification & Recipe Recommendation
+ 
 ## 📌 Aim of the Project
 
 This project aims to develop a two-stage intelligent system that transforms the way users interact with recipes and meal planning.
