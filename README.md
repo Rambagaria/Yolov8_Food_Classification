@@ -1,17 +1,4 @@
 # Yolov8 Food Classification & Recipe Recommendation
- 
-## 📌 Aim of the Project
-
-This project aims to develop a two-stage intelligent system that transforms the way users interact with recipes and meal planning.
-
-### 🔍 Stage 1: Accurate Ingredient Detection  
-Leverage Yolov8 to accurately identify multiple individual ingredients present in food images.
-TF-IDF + T5 for recipe recommendation
-
-<img width="1141" height="290" alt="image" src="https://github.com/user-attachments/assets/eb9432b3-1c75-4702-8d09-8739f60b3ed2" />
-
-### 📖 Stage 2: Contextual Recipe Recommendation  
-Utilize the detected ingredients to retrieve contextually relevant and accessible recipes from comprehensive recipe databases.
 
 ## ❗ Problem Statement
 
@@ -23,10 +10,17 @@ At the same time, existing recipe recommendation systems are **disconnected from
 - Ingredient utilization  
 - Culinary exploration
 
-## 🎯 Project Goals
+## 📌 Aim of the Project
 
-- ✅ Train a **multi-label classifier** to detect and localize multiple ingredients from a single food image.
-- ✅ Build a **recipe retrieval engine** that automatically maps the detected ingredients to relevant recipes, minimizing the need for user input.
+This project aims to develop a two-stage intelligent system that transforms the way users interact with recipes and meal planning.
+
+## 2 Stage Pipeline
+
+### 🔍 Stage 1: Accurate Ingredient Detection  
+Leverage Yolov8 to accurately identify multiple individual ingredients present in food images.
+
+### 📖 Stage 2: Contextual Recipe Recommendation  
+Utilize the detected ingredients to retrieve contextually relevant and accessible recipes from comprehensive recipe databases using TF-IDF + T5 for recipe recommendation
 
 ## 📦 Features
 
