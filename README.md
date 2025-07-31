@@ -64,5 +64,9 @@ Made use of Optuna for Bayesian Optimization
 - 🧠 Provided **context-aware recipe suggestions** using a combination of:
   - **TF-IDF retrieval** for relevant recipe matching
   - **T5 model** for natural language generation
-- 🌐 Enabled **interactive predictions and visualizations** via a user-friendly **Gradio interface**.
+- 🌐 Enabled **interactive predictions and visualizations** via a user-friendly **Gradio interface**
 
+## 📽️ Demo Video
+
+Check out the demo in action on the website:
+🔗 [Demo Video on Website](https://sites.google.com/mtu.edu/rambagaria/home)
