@@ -28,3 +28,16 @@ Utilize the detected ingredients to retrieve contextually relevant and accessibl
 - Real-time or batch recipe suggestion  
 - Scalable and modular pipeline  
 - Potential for integration with existing meal planner apps
+
+## Dataset
+
+FOOD INGREDIENTS DETECTION dataset
+Size: 1425 training images, 286 validation images, and 190 test images.
+Type: All data is image-based, with labels in YOLO format, where each label represents a bounding box with class ID and normalized coordinates.
+Distribution: The dataset is slightly imbalanced. 
+The top five most common ingredients are:
+Egg (203 instances)
+Lemon (178)
+Cucumber (164)
+Onion (160)
+Tomato (150)
