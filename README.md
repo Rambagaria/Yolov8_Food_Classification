@@ -54,4 +54,5 @@ Leverage Yolov8 to accurately identify multiple individual ingredients present i
 ### 📖 Stage 2: Contextual Recipe Recommendation  
 Utilize the detected ingredients to retrieve contextually relevant and accessible recipes from comprehensive recipe databases using TF-IDF + T5 for recipe recommendation
 
-## HyperParameter Tuning - Made use of Optuna for Bayesian Optimization
+## HyperParameter Tuning 
+Made use of Optuna for Bayesian Optimization
